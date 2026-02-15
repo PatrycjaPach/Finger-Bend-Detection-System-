@@ -58,10 +58,11 @@ Additionally:
 
 ## 🧪 What I Learned
 
-- Working with analog sensors and ADC on ESP32  
-- Interfacing peripherals using I2C  
-- Writing low-level display handling code  
-- Hardware–software integration in embedded systems  
+- Working with flex sensors: calibration, signal interpretation
+- Developing embedded applications using ESP-IDF framework in C
+- Handling analog inputs via ADC and implementing basic debouncing/reading protection logic
+- Designing a simple input buffer and timing logic for character entry
+- Integrating sensor processing with real-time display feedback on an OLED screen 
 
 ## 🚀 Possible Improvements
 
