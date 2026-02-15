@@ -41,16 +41,20 @@ The project focuses on hardware–software integration, analog signal processing
 
 ## 🧩 My Contribution
 
-This was a 2-person academic project. My main responsibilities included:
+This was a 2-person academic embedded systems project.
 
-- OLED display initialization and control  
-- Implementing the display buffer  
-- Rendering characters on screen (font file provided: X11fixed7x14.h by Markus Kuhn)  
-- Integrating display output with the detection logic  
+My main responsibilities included:
 
-Both team members participated in:
-- Hardware assembly  
-- Soldering and wiring  
+- Initialization and calibration of flex sensors (analog inputs via ADC)
+- Implementing signal filtering and protection logic preventing multiple readings when two fingers bend simultaneously
+- Designing the letter input buffer, including character queuing and waiting period
+- Implementing the logic that interprets sensor states and converts them into letter recognition
+- Creating the function displaying the logical state of each flex sensor on the OLED (3 logical states per finger shown in the lower part of the screen)
+- Implemented the main application logic in `main_buf_and_oled.c`, coordinating sensor readings, letter recognition, and triggering character display on the OLED
+
+Additionally:
+- Assisted in integration of sensor readings with the detection algorithm
+- Participated in hardware assembly, wiring and testing of the device
 
 ## 🧪 What I Learned
 
