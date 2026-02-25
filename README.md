@@ -44,8 +44,11 @@ The project focuses on hardware–software integration, analog signal processing
 This was a 2-person academic project. My main responsibilities included:
 
 -Creation of a buffer responsible for handling the entire keyboard logic
+
 -Reading data from flex sensors using the ADC
+
 -Implementation of a protection function preventing simultaneous readings from two sensors
+
 -Implementation of an OLED display function that shows which sensor state is currently active (each sensor operates in two states)
 
 Both team members participated in:
